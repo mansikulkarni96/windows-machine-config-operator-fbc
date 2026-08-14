@@ -22,7 +22,7 @@
     "schema": "olm.bundle",
     "name": "windows-machine-config-operator.v11.0.0",
     "package": "windows-machine-config-operator",
-    "image": "registry.redhat.io/openshift4-wincw/windows-machine-config-operator-bundle@sha256:599f1e27d6a0d6346292f26a5d1c7e7a6db738f9e28af7792cefff23467ec459",
+    "image": "registry.redhat.io/openshift4-wincw/windows-machine-config-operator-bundle@sha256:34a89d905759bdbab155944e9c6aeb8b2e862ec6f51d34f2bbfb7294a37d545e",
     "properties": [
         {
             "type": "olm.package",
@@ -39,7 +39,7 @@
                     "capabilities": "Seamless Upgrades",
                     "categories": "OpenShift Optional",
                     "certified": "false",
-                    "createdAt": "2026-07-11T11:29:09Z",
+                    "createdAt": "2026-08-14T04:30:00Z",
                     "description": "An operator that enables Windows container workloads on OCP",
                     "features.operators.openshift.io/cnf": "false",
                     "features.operators.openshift.io/cni": "true",
@@ -92,7 +92,7 @@
                     }
                 ],
                 "maturity": "stable",
-                "minKubeVersion": "1.35.0",
+                "minKubeVersion": "1.36.0",
                 "provider": {
                     "name": "Red Hat"
                 }
@@ -102,11 +102,11 @@
     "relatedImages": [
         {
             "name": "",
-            "image": "registry.redhat.io/openshift4-wincw/windows-machine-config-rhel9-operator@sha256:4869f2d0f90f785c1db94878f0a58ce016b866a2a188d2b39908ea12d8b74973"
+            "image": "registry.redhat.io/openshift4-wincw/windows-machine-config-rhel9-operator@sha256:75b9fb5b1c14a1f4d079fb0606abfaf56d13acb90e8c9791bf85babe813202f1"
         },
         {
             "name": "",
-            "image": "registry.redhat.io/openshift4-wincw/windows-machine-config-operator-bundle@sha256:599f1e27d6a0d6346292f26a5d1c7e7a6db738f9e28af7792cefff23467ec459"
+            "image": "registry.redhat.io/openshift4-wincw/windows-machine-config-operator-bundle@sha256:34a89d905759bdbab155944e9c6aeb8b2e862ec6f51d34f2bbfb7294a37d545e"
         }
     ]
 }
